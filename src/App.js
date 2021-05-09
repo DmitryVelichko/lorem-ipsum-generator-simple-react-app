@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import data from './data';
+
 function App() {
   const [count, setCount] = useState(0);
   const [text, setText] = useState([]);
@@ -11,7 +12,7 @@ function App() {
       amount = 1;
       alert("Please use only positive numbers!");
     }
-    if(count > 8){
+    if(count > 8) {
       amount = 8;
     }
     setText(data.slice(0, amount));
