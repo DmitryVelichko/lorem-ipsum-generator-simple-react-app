@@ -199,6 +199,7 @@ h3 {
   text-transform: uppercase;
   color: var(--clr-primary-1);
 }
+
 .lorem-form {
   text-transform: capitalize;
   letter-spacing: var(--spacing);
